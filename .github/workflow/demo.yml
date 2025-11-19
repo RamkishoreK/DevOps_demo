@@ -34,5 +34,5 @@ jobs:
       - name: Deployment notes
         run: |
           echo "To deploy locally, run:"
-          echo "docker pull sndass/cicd-demo:latest"
-          echo "docker run -d -p 8080:80 sndass/cicd-demo:latest"
+          echo "docker pull adrenolad/cicd-demo:latest"
+          echo "docker run -d -p 8080:80 adrenolad/cicd-demo:latest"
